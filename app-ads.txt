@@ -1,5 +1,1 @@
-# Barons of Crude — Manfred Uschan
-# No authorized sellers configured: AdMob publisher ID is pending.
-# Before monetization, replace the comment below with the exact AdMob seller line:
-# google.com, pub-REPLACE_WITH_YOUR_16_DIGIT_PUBLISHER_ID, DIRECT, f08c47fec0942fa0
-# Serve this file at https://YOUR_DEVELOPER_WEBSITE_HOST/app-ads.txt
+google.com, pub-9404893474354911, DIRECT, f08c47fec0942fa0

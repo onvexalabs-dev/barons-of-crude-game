@@ -18,7 +18,7 @@ The repository being populated does not itself guarantee that GitHub Pages has b
 
 ## app-ads.txt root requirement
 
-The provided file deliberately contains no active seller record because the AdMob publisher ID is missing. Replace the commented example with the exact line from your AdMob account.
+The provided file contains the seller record derived from the supplied publisher ID, pub-9404893474354911. Compare it with the exact snippet shown in AdMob before publication.
 
 For a GitHub project site, the included file is at `/barons-of-crude-game/app-ads.txt`. AdMob instead requests `/app-ads.txt` on the developer website hostname. Either:
 
@@ -30,6 +30,8 @@ The organization-root repository has not been modified by this project. No custo
 ## Required completion before commercial release
 
 - Add a real service address and jurisdiction-specific required publisher disclosures in `imprint.html`. No address or registration number has been invented.
-- The current privacy policy accurately describes the **ad-free development build**. Update it before enabling AdMob, including actual SDK data categories, purposes, partners, retention and applicable choices.
+- The privacy policy is updated for optional AdMob rewards. Finalize audience, territories and account-side consent configuration before enabling production ads.
 - Validate the final policies against the publisher's location, release territories, target audience and actual implementation. The draft does not constitute completed legal clearance.
 - Verify support links and dates whenever data practices change.
+
+Verification on 29 September 2026: the root https://onvexalabs-dev.github.io/app-ads.txt returns 200 and contains the supplied publisher record. The intended project privacy URL returns 404; pushing source alone does not publish it.
